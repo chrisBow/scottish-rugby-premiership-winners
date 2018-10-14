@@ -37,7 +37,7 @@ winners_df <- rename(winners_df, winner = winners_4)
 winning_clubs <- as.character(unique(winners_df$winner))
 
 
-# create new column for each winning club, initialise with club name
+# create new column for each winning club, initialise with 0
 #for(club in winning_clubs) {    # first go with for loop
 #  winners_df[ ,club] <- 0
 #}
