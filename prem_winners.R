@@ -120,7 +120,7 @@ images = list.files(pattern = "jpeg")
   
 for (i in length(images):1) {
     x = image_read(images[i])
-    x = image_scale(x, "300")
+    x = image_scale(x, "600")
     c(x, frames) -> frames
 }
 
